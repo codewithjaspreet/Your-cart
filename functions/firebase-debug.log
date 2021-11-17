@@ -1,0 +1,43 @@
+[debug] [2021-11-17T07:16:55.116Z] ----------------------------------------------------------------------
+[debug] [2021-11-17T07:16:55.123Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-11-17T07:16:55.125Z] CLI Version:   9.22.0
+[debug] [2021-11-17T07:16:55.125Z] Platform:      win32
+[debug] [2021-11-17T07:16:55.125Z] Node Version:  v14.17.6
+[debug] [2021-11-17T07:16:55.524Z] Time:          Wed Nov 17 2021 12:46:55 GMT+0530 (India Standard Time)
+[debug] [2021-11-17T07:16:55.524Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-17T07:16:55.744Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-17T07:16:55.745Z] > authorizing via signed-in user (jaspreetsodhi02@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2021-11-17T07:16:55.999Z] [hub] writing locator at C:\Users\Dell\AppData\Local\Temp\hub-your---cart.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@14 from host."}}
+[debug] [2021-11-17T07:16:56.287Z] defaultcredentials: writing to file C:\Users\Dell\AppData\Roaming\firebase\jaspreetsodhi02_gmail_com_application_default_credentials.json
+[debug] [2021-11-17T07:16:56.336Z] Setting GAC to C:\Users\Dell\AppData\Roaming\firebase\jaspreetsodhi02_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dell\\AppData\\Roaming\\firebase\\jaspreetsodhi02_gmail_com_application_default_credentials.json"}}
+[debug] [2021-11-17T07:16:56.342Z] > refreshing access token with scopes: []
+[debug] [2021-11-17T07:16:56.344Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-17T07:16:56.839Z] <<< HTTP RESPONSE 200 {"date":"Wed, 17 Nov 2021 07:15:54 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-17T07:16:56.928Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/your---cart/adminSdkConfig [none]
+[debug] [2021-11-17T07:16:57.862Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/your---cart/adminSdkConfig 200
+[debug] [2021-11-17T07:16:57.863Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/your---cart/adminSdkConfig {"projectId":"your---cart","databaseURL":"https://your---cart-default-rtdb.firebaseio.com","storageBucket":"your---cart.appspot.com","locationId":"us-central"}
+[debug] [2021-11-17T07:16:57.900Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/your---cart/sites 
+[debug] [2021-11-17T07:17:00.021Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/your---cart/sites 200
+[debug] [2021-11-17T07:17:00.021Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/your---cart/sites {"sites":[{"name":"projects/168443327859/sites/your---cart","defaultUrl":"https://your---cart.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2021-11-17T07:17:00.022Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/your---cart/webApps/-/config [none]
+[debug] [2021-11-17T07:17:01.389Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/your---cart/webApps/-/config 200
+[debug] [2021-11-17T07:17:01.389Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/your---cart/webApps/-/config {"projectId":"your---cart","databaseURL":"https://your---cart-default-rtdb.firebaseio.com","storageBucket":"your---cart.appspot.com","locationId":"us-central","apiKey":"AIzaSyCW2OEd4G89dqAbueRmTDc4UaA3aT1QS78","authDomain":"your---cart.firebaseapp.com","messagingSenderId":"168443327859"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2021-11-17T07:17:01.647Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-11-17T07:17:01.648Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-11-17T07:17:01.649Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Dell\\.cache\\firebase\\emulators\\ui-v1.6.4\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Dell\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.4\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-11-17T07:17:02.037Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\Dell\Desktop\Your-Cart-Project\your-cart\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Dell\\Desktop\\Your-Cart-Project\\your-cart\\functions\" for Cloud Functions..."}}
+[debug] [2021-11-17T07:17:02.308Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2021-11-17T07:17:02.311Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2021-11-17T07:17:02.312Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2021-11-17T07:17:02.313Z] [worker-~diagnostic~-bc775fb6-590e-44e5-85e2-57740258a8a8]: Assigning socketPath: \\?\pipe\C:\Users\Dell\Desktop\Your-Cart-Project\your-cart\functions\24760 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-bc775fb6-590e-44e5-85e2-57740258a8a8]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Dell\\Desktop\\Your-Cart-Project\\your-cart\\functions\\24760"}}
+[debug] [2021-11-17T07:17:02.313Z] [worker-~diagnostic~-bc775fb6-590e-44e5-85e2-57740258a8a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-bc775fb6-590e-44e5-85e2-57740258a8a8]: BUSY"}}
